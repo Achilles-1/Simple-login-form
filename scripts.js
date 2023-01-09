@@ -63,6 +63,10 @@ $('.input>input').on('blur', function () {
 $('#showPwd1').on('click', function () {
   togglePasswordVisibility(this, "#signup input[name='pwd']");
 });
+
+$('#showPwd2').on('click', function () {
+  togglePasswordVisibility(this, "#login input[name='pwd']");
+});
 $(window).on('hashchange', () => {
   setActiveTab(window.location.hash);
 });
