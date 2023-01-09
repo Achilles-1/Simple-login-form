@@ -52,7 +52,8 @@ button {
 }
 
 button:focus,
-.tab:focus {
+.tab:focus,
+.tab.active {
   box-shadow: 0 0 0 3px rgb(18, 61, 114), 0 0 0 5px rgb(30, 109, 206);
 }
 
