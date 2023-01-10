@@ -1,2 +1,3 @@
-# Simple-login-form
- A simple login form with tabs
+# Simple Login From
+
+This is a small and simple login form made using Plain HTML, CSS & JS.
